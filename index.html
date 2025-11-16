@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Premium - Modelos 3D Roblox</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav-bar">
+        <nav>
+            <a href="index.html">MODELOS 3D</a>
+            <a href="proyectos.html">MIS PROYECTOS</a>
+        </nav>
+    </div>
+    <div class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Modelos 3D Premium</h1>
+            <p class="hero-subtitle">Colección exclusiva de items de Roblox en formato OBJ</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number" id="modelCount">22</span>
+                    <span class="stat-label">Modelos</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">OBJ</span>
+                    <span class="stat-label">Formato</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">ZIP</span>
+                    <span class="stat-label">Descarga</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-decoration"></div>
+    </div>
+
+    <div class="container">
+        <div class="filters">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Buscar modelo..." class="search-input">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM19 19l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+            <select id="categoryFilter" class="category-select">
+                <option value="all">Todas las categorías</option>
+                <option value="dominus">Dominus</option>
+                <option value="corona">Coronas</option>
+                <option value="pelo">Pelos</option>
+                <option value="valkiria">Valkirias</option>
+                <option value="otros">Otros</option>
+            </select>
+        </div>
+
+        <div class="grid" id="modelsGrid"></div>
+    </div>
+
+    <footer class="footer">
+        <p>Catálogo de Modelos 3D - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
