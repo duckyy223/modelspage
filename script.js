@@ -1,5 +1,5 @@
 const GITHUB_USER = 'duckyy223';
-const GITHUB_REPO = 'obj_pajina';
+const GITHUB_REPO = 'modelspage';
 
 const models = [
     {
